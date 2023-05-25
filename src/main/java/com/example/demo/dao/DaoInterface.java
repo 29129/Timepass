@@ -1,0 +1,16 @@
+package com.example.demo.dao;
+
+import java.util.List;
+
+import com.example.demo.model.Employee;
+
+public interface DaoInterface 
+{
+
+	public void addemployee(Employee emp);
+	public List<Employee> login(Employee emp);
+	public List<Employee> showList();
+	public Employee editEmployee(int id);
+	public void updateEmployee(Employee emp);
+	public int deleteEmployee(int id);
+}
